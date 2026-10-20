@@ -1,18 +1,33 @@
 /* DESIGN TOKENS — adjust site colours and typography here */
 :root {
-    --bg: #a3b18a;
-    --panel: #544B20;
-    --surface: #A8813C;
-    --text: #A8813C;
-    --muted: #8B4217;
+    --bg: #335d02;
+    --panel: #f5f5f5;
+    --surface: #a83c3c;
+    --text: #203b92;
+    --muted: #dab92b;
     --line: #2b3a51;
-    --accent: #8B4217 ;
+    --accent: #189e14 ;
     --accent2: #d81111;
     --max: 1180px;
     --radius: 18px;
     --shadow: 0 24px 60px #0007;
     color-scheme: dark
 }
+.Fashionxp {
+
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.Fashion90 {
+
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}   
 
 * {
     box-sizing: border-box
@@ -99,9 +114,8 @@ button {
     position: sticky;
     top: 0;
     z-index: 20;
-    background: #3D402B;
     backdrop-filter: blur(18px);
-    border-bottom: 1px solid #ffffff15
+    border-bottom: 1px solid #69470615
 }
 
 .nav {
@@ -218,7 +232,7 @@ p {
     width: 100%;
     object-fit: cover;
     border-radius: 24px;
-    border: 1px solid #ffffff24;
+    border: 1px solid #d1080824;
     box-shadow: var(--shadow)
 }
 
