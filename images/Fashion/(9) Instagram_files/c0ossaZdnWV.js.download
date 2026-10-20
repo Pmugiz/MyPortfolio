@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("AdsLeadGenFormEditorChatOnMessengerUtils",["AdsLeadGenFormRedesignExperiment"],(function(t,n,r,o,a,i,l){"use strict";function e(){return r("AdsLeadGenFormRedesignExperiment").canSeeAIFormEnhancements}function s(t){return e()?t.get("is_chat_on_messenger_enabled")===!0:t.get("is_auto_thread_creation_enabled")===!0}function u(t,n){return e()?t.set("is_chat_on_messenger_enabled",n):t.set("is_auto_thread_creation_enabled",n)}l.usesChatOnMessengerField=e,l.isChatOnMessengerOn=s,l.applyChatOnMessenger=u}),98);

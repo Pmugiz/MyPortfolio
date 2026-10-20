@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("IgWwwMigrationValidationShadowFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("3175"),s=o("FalcoLoggerInternal").create("ig_www_migration_validation_shadow",e),u=s;l.default=u}),98);
